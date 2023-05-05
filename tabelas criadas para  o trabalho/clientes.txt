@@ -1,0 +1,9 @@
+CREATE TABLE `locadora`.`clientes` (
+  `idclientes` INT NOT NULL AUTO_INCREMENT,
+  `primeiro_nome_cliente` VARCHAR(80) NULL,
+  `segundo_nome_cliente` VARCHAR(80) NULL,
+  `senha` VARCHAR(45) NULL,
+  `quantidade_de_filmes_atualmente_alugados` INT NULL,
+  `quantidade_de_filmes_alugados_devolvidos` INT NULL,
+  `CPF` VARCHAR(11) NULL,
+  PRIMARY KEY (`idclientes`));

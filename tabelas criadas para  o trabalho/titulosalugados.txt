@@ -1,0 +1,11 @@
+CREATE TABLE `locadora`.`titulosalugados` (
+  `idtitulosAlugados` INT NOT NULL AUTO_INCREMENT,
+  `descricao` VARCHAR(150) NULL,
+  `tipo` VARCHAR(20) NULL,
+  `numero_exemplares` INT NULL,
+  `periodo_maximo_emprestimo` INT NULL,
+  `id_funcionario` INT NULL,
+  `id_cliente` INT NULL,
+  `data_emprestimo` DATE NULL,
+  `data_devolucao` DATE NULL,
+  PRIMARY KEY (`idtitulosAlugados`));

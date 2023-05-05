@@ -1,0 +1,10 @@
+CREATE TABLE `locadora`.`registros` (
+  `idregistro` INT NOT NULL AUTO_INCREMENT,
+  `tipo_registro` VARCHAR(100) NULL,
+  `descricao_titulo` VARCHAR(150) NULL,
+  `tipo_titulo` VARCHAR(45) NULL,
+  `numero_exemplares` INT NULL,
+  `id_funcionario` INT NULL,
+  `id_cliente` INT NULL,
+  `data` DATE NULL,
+  PRIMARY KEY (`idregistro`));

@@ -1,0 +1,8 @@
+CREATE TABLE `locadora`.`funcionarios` (
+  `idfuncionarios` INT NOT NULL,
+  `primeiro_nome` VARCHAR(60) NULL,
+  `segundo_nome` VARCHAR(60) NULL,
+  `CPF` VARCHAR(11) NULL,
+  `numero_locações_tratadas` INT NULL,
+  `numero_devoluções_tratadas` INT NULL,
+  PRIMARY KEY (`idfuncionarios`));
